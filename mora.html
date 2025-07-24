@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>AHMED_VX - شروحات تقنية</title>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+        * {
+            font-family: 'Tajawal', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            background: #0d0d0d;
+            color: #fff;
+            overflow-x: hidden;
+            line-height: 1.8;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(185, 0, 190, 0.4), rgba(0, 0, 0, 0.9));
+            animation: pulse 8s infinite alternate;
+            z-index: -1;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 0.5; }
+            100% { opacity: 0.7; transform: scale(1.02); }
+        }
+        hr {
+            border: none;
+            height: 5px;
+            background: linear-gradient(to right, transparent, rgba(106, 17, 203, 0.8), transparent);
+            margin: 30px auto;
+            width: 90%;
+            max-width: 500px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(185, 0, 190, 0.5);
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h4 {
+            font-size: 1.2rem;
+            margin: 1.5rem 0;
+            font-weight: 500;
+            color: #f1f1f1;
+            text-shadow: 0 0 10px rgba(185, 0, 190, 0.5);
+            padding: 15px;
+            background: rgba(20, 20, 20, 0.7);
+            border-radius: 12px;
+            border: 1px solid rgba(106, 17, 203, 0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+        h4:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(185, 0, 190, 0.4);
+            background: rgba(30, 30, 30, 0.8);
+        }
+        .span {
+            color: #fff;
+            font-size: 1.5rem;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, rgba(106, 17, 203, 0.7), rgba(185, 0, 190, 0.7));
+            border-radius: 30px;
+            box-shadow: 0 5px 20px rgba(185, 0, 190, 0.5);
+            display: inline-block;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .span::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                to bottom right,
+                rgba(255, 255, 255, 0.3),
+                rgba(255, 255, 255, 0)
+            );
+            transform: rotate(30deg);
+            animation: shine 3s infinite;
+        }
+        @keyframes shine {
+            0% { transform: translateX(-100%) rotate(30deg); }
+            100% { transform: translateX(100%) rotate(30deg); }
+        }
+        .span:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 30px rgba(185, 0, 190, 0.7);
+        }
+        .content-box {
+            background: rgba(15, 15, 15, 0.8);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border: 1px solid rgba(106, 17, 203, 0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        .highlight {
+            color: #6a11cb;
+            font-weight: 700;
+        }
+        @media (max-width: 768px) {
+            h4 {
+                font-size: 1rem;
+                padding: 12px;
+            }
+            .span {
+                font-size: 1.2rem;
+                padding: 10px 20px;
+            }
+            main {
+                padding: 30px 15px;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <main>
+            <span class="span">صلي على النبي ﷺ</span>
+            <div class="content-box">
+                <h4><span class="highlight">『 شرح استخراج رقم دعم واتساب 』</span><br><br>
+                مرحباً، هذا شرح بسيط عن طريقة استخراج رقم الدعم الخاص بواتساب:<br><br>
+                1. اذهب للتواصل مع دعم واتساب<br>
+                2. قم بحظر الرقم<br>
+                3. انتقل إلى الإعدادات → الخصوصية<br>
+                4. اختر "قائمة المحظورين"<br>
+                5. سوف يظهر لك اسم ورقم الدعم<br><br></h4>
+            </div>
+            <hr>
+        </main>
+        <main>
+            <div class="content-box">
+<h4><span class="highlight">『شرح مبسط لأوامر برمجية أساسية』</span><br><br>
+
+<strong>Python (بايثون):</strong><br>
+1. أمر الطباعة: <code>print("AHMED")</code> ← النتيجة: AHMED<br>
+2. أمر الإدخال: <code>input("ادخل اسمك: ")</code><br>
+3. أنواع البيانات الأساسية:<br>
+   - الأعداد الصحيحة: <code>int</code> مثل <code>x = 5</code><br>
+   - النصوص: <code>str</code> مثل <code>name = "Ahmed"</code><br>
+   - الأعداد الكسرية: <code>float</code> مثل <code>pi = 3.14</code><br><br>
+
+<strong>PHP:</strong><br>
+يتم تنفيذ أكواد PHP بين العلامات الأساسية:<br>
+<code>&lt;?php<br>
+// كود PHP هنا<br>
+?&gt;</code><br>
+مثال:<br>
+<code>&lt;?php<br>
+&nbsp;&nbsp;echo "مرحباً بالعالم!";<br>
+?&gt;</code><br><br>
+
+<strong>Bash (أوامر لينكس/يونكس):</strong><br>
+1. عرض محتوى مجلد: <code>ls</code><br>
+2. إنشاء مجلد: <code>mkdir new_folder</code><br>
+3. عرض مسار المجلد الحالي: <code>pwd</code><br>
+4. تشغيل ملف برمجي: <code>bash script.sh<br>وامر clear التي تستخدم في اي نظام او بيئه لكتابه اوامر Terminal</code></h4>
+            </div>
+            <hr>
+        </main>
+        <main>
+            <div class="content-box">
+                <h4><span class="highlight">『شرح طريقه تفعيل ارقام +994』</span><br>هتنزل نسخه سيفيﻭم (𝘚𝘢𝘧𝘦𝘜𝘔) من آي مڪآن عآدي ﻭبعدين تسجل ب حسآب من آلبﻭت هنآ ﻭ نسبه تفعيل آلأڒقآم بتبقي بنسبه آڪبڒ للأڒقآم +994 نسبه تفعيل آڒقآم +371 قليله فآ آنت تفعل آلحسآبآت آللي تلآقي فيهآ آلأڒقآم +994 ڪل نسخه تقدڒ تستخدم فيهآ ثلآث حسآبآت حآﻭل تفعلهم ڪلهم عشآن تجڒب آلأڒقآم ﻭلﻭ ڒقم جآب سآعه تجڒب غيڒﻭ علي طﻭل ف نفس آلﻭقت + تفعيل آلأڒقآم بيبقي علي ڒأس آلسآعه بظبط يعني 3:59 تڪﻭن مجهز آلڒقم ف آلنسخه آﻭل مآ تبقآ 4:00 تطلب ڪﻭد لﻭ جيه 5 دقآئق آﻭ 10 دقآئق خش نسخه سيفيﻭم هتلآقي آلڪﻭد ﻭفعل آلڒقم بسهﻭله ﻭيفضل آنڪ تجڒب تفعل آلأڒقآم علي نسخ ڒسميه زي نسخ (آلأعمآل ﻭ آلنسخه آلخضڒه) 
+
+نصيحه بعد متفعل آلڒقم 
+لمآ تفعل آلڒقم متتڪلمش بيه سيبﻭ يﻭمين مثلآ ﻭمتحطش صﻭڒه بڒﻭفآيل آﻭ آسم مزخڒف ﻭقت تفعيلﻭ يفضل آنڪ تسيبﻭ آڒبع آيآم مثلآ ﻭبعدين تبقي تحط بڒﻭفآيل عآدي ﻭتخش جڒﻭب  ﻭبعد يﻭمين تتڪلم بيه عآدي<br>البوت الذي يقدم حسابات@F_S_7BOT </h4>
+            </div>
+            <hr>
+        </main>
+        <main>
+            <div class="content-box">
+                <h4><span class="highlight">『مواقع هتفيدك اوي』</span><br>
+                1. موقع https://www.barmej.com/ لتعلم البرمجه بلغه العربيه للمبتدائين
+                <br>
+                2. موقع خاص بلغه python يتضمن كتب ومكاتب https://awesome-python.com/
+                <br>
+                3. موقع لتعلم HTML بسهوله https://elzero.org/learn-html/
+                <br>
+                4. موقع العملاق الصيني للذكاء الاصطناعي مساعد جيد جداً في البرمجه و الأساله حول البرمجه https://www.deepseek.com/<br>
+                5. موقع يقدم كورسات في جميع المجالات + شهاده https://www.m3aarf.com/<br> 
+                6. موفع مفيد جداً وهيسعدك في كشف خطوره البرمجيات الخبيثه ويمكن الأعتماد عليه https://www.virustotal.com/
+                </h4>
+            </div>
+            <hr>
+        </main>
+                <main>
+            <div class="content-box">
+                <h4><span class="highlight">『شرح بسيط لتعديل معلومه لدي الكثيرين』</span><br>مش اي حد يقلك ملف البايثون ده لازم تشغلو في بيئه خاصه زي ف برنامج pydroid3 يمكن تشغيل اي ملف بايثون ف Termux عادي بشكل طبيعي ولاكن اذا واجهتك مشكله تحقق من تثبيت المكاتب <br>هتثبت المكاتب كده pip install اسم المكتبه اللي بتظهر لما يظهر خطاء او يظهر انو مقدرش يشغل الأسكربت بسبب المكتبه اسم المكتبه بيكون موجود ف اخر سطر بين الشكل ده ' ' مثلا websocket تكون ف اخر سطر بشكل ده 'websocket' هتبثها هكذا pip install websocket</h4>
+            </div>
+            <hr>
+        </main>
+        <main>
+            <div class="content-box">
+                <h4><span class="highlight">『طريقه تحطيم اعلي اسكور في لعبه dino』</span>
+                <br>هتفتح الموقع بتاع اللعبه علي اي متصفح تقدر تظهر فيه السورس كود بتاع الموقع هتظهرو ب كده لو انت كمبيوتر اتدوس Ctrl+Shift+f12 وهيتفتحلك تحت مكان فبه السورس كود ووظائف كتيره لتحكم ب الموقع المهم هتختار من الشريط اللي هيظهر كلمه console وبعدين تكتب الكود ده<br> var originalProto = Runner.prototype;
+Runner.prototype.gameOver = function(){};
+var originalSpeed = Runner.instance_.currentSpeed;
+Runner.instance_.currentSpeed = 9999;<br>انسخ الكود وكتبو عندك ف ال console وبعدين اعمل Run<br>وبعدين شغل اللعبه وبس ولو مش نجح معاك كلم اي ai يبعتلك كود بلي تطلبو بشكل واقعي اكثر</h4>
+            </div>
+            <hr>
+        </main>
+        <script>
+            // تأثيرات إضافية عند التمرير
+            document.addEventListener('DOMContentLoaded', function() {
+                const contents = document.querySelectorAll('.content-box');
+                
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.opacity = 1;
+                            entry.target.style.transform = 'translateY(0)';
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                contents.forEach(content => {
+                    content.style.opacity = 0;
+                    content.style.transform = 'translateY(20px)';
+                    content.style.transition = 'all 0.6s ease-out';
+                    observer.observe(content);
+                });
+            });
+        </script>
+    </body>
+</html>
